@@ -18,9 +18,9 @@ if __name__ == "__main__":
     form = soup.find("form")
     LT = form.find(attrs={"name":"lt"}).attrs['value']
     jsessionid = form.attrs['action'][26:66]
-    username = '1796246076@qq.com'
-    password = 'wang1204'
-    execution = 'e1s1'
+    username = '*********@qq.com'
+    password = '******'
+    execution = '*****'
     _eventId = 'submit'
     lt = LT
 
